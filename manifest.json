@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
-  "name": "dreamstore",
-  "version": "1.18.6",
+  "vendor": "brastemp",
+  "name": "washer",
+  "version": "0.0.1",
   "builders": {
     "pages": "0.x",
     "react": "2.x"
@@ -33,6 +33,10 @@
     "vtex.product-kit": "0.x",
     "vtex.telemarketing": "1.x",
     "vtex.dreamstore-header": "1.x",
-    "vtex.dreamstore-footer": "1.x"
-  }
+    "vtex.dreamstore-footer": "1.x",
+    "brastemp.components": "1.x",
+    "vtex.render-runtime": "7.x",
+    "vtex.admin-pages": "2.7.1"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

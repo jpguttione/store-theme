@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  height: 80px;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 0px 32px; }
+  .header__wrapper {
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center; }
+  .header__anchor {
+    position: relative; }
+    .header__anchor:not(:last-child) {
+      margin-right: 32px; }
+    .header__anchor:hover {
+      cursor: pointer; }
+  .header__close {
+    position: relative; }

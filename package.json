@@ -1,0 +1,29 @@
+{
+  "name": "store-theme",
+  "version": "1.0.0",
+  "description": "Default store of VTEX IO platform.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp sass:watch",
+    "start": "vtex link --verbose"
+  },
+  "repository": "git+https://github.com/jpguttione/store-theme.git",
+  "author": "João Pedro Lima <joao.lima@b8one.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpguttione/store-theme/issues"
+  },
+  "homepage": "https://github.com/jpguttione/store-theme#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.9.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4"
+  }
+}

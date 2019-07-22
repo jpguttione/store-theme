@@ -1,0 +1,34 @@
+.header {
+  position: fixed;
+  height: 80px;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 0px 32px;
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__anchor {
+    position: relative;
+
+    &:not(:last-child){
+      margin-right: 32px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__close {
+    position: relative;
+  }
+}

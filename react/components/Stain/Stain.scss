@@ -1,0 +1,74 @@
+.stain {
+  max-width: 1344px;
+  padding: 0px 16px;
+  margin: 0px auto;
+
+  &__title {
+    // font-family: Soleto;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+
+  &__image {
+    position: relative;
+    display: block;
+
+    &:before {
+      content: '';
+      top:8px;
+      left: 8px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: block;
+      border: 1px solid #F08B1D;
+    }
+  }
+
+  &__text {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    padding: 5px 9px;
+    background: #fff;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      bottom: 0px;
+      left: 0;
+      background: linear-gradient(90deg, #F08B1D 0%, #DB532A 100%);
+    }
+  }
+
+  &__more {
+    width: 150px;
+    height: 44px;
+    margin: 52px auto 0px;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #F08B1D 0%, #DB532A 100%);
+
+    svg {
+      fill: #fff;
+      width: 12px;
+      margin-right: 12px;
+    }
+  }
+}

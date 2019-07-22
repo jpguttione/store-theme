@@ -14,3 +14,6 @@ react/__tests__/**
 react/.babelrc
 react/.eslintrc
 react/setupTests.js
+react/sass
+gulpfile.js
+.npmrc
